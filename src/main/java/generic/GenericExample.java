@@ -1,14 +1,15 @@
 package generic;
 
-public class GenericClass<T> {
+public class GenericExample<T> {
 
     private final T t;
 
-    public GenericClass(T s) {
+    public GenericExample(T s) {
         this.t = s;
     }
 
     // static generic method
+    // 클래스에 정의되어있는 T와 아래 T와는 별개다.
     public static <T> boolean isInteger(T t) {
         return t instanceof Integer;
     }
