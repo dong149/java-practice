@@ -1,4 +1,4 @@
-package bridge;
+package design_patterns.bridge;
 
 public class RectangleDrawing implements Drawing {
 
