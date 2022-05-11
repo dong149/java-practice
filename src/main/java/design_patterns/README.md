@@ -87,3 +87,8 @@ public static void main(String[] args) {
 ## 5. 싱글톤 패턴
 
 인스턴스가 한 개만 존재하는 것을 보장하는 패턴을 Sigleton Pattern이라 한다.
+
+---
+
+## 6. 프로토 타입 패턴
+
